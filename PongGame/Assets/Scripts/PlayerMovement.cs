@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
         //Debug.Log(Input.GetAxis("Player1"));
         if (playerNumber == 1)
         {
-            transform.Translate(new Vector3(0, Input.GetAxis("Player1") * MoveSpeed * Time.deltaTime, 0));
+            transform.Translate(new Vector3(0, Input.GetAxis("Paddle1") * MoveSpeed * Time.deltaTime, 0));
 
         }
 

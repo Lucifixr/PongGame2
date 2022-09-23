@@ -13,7 +13,7 @@ public class PlayerMovement2 : MonoBehaviour
     {
         if (playerNumber == 2)
         {
-            transform.Translate(new Vector3(0, Input.GetAxis("Player2") * MoveSpeed * Time.deltaTime, 0));
+            transform.Translate(new Vector3(0, Input.GetAxis("Paddle2") * MoveSpeed * Time.deltaTime, 0));
     
     }   }
 }
